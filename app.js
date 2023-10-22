@@ -31,14 +31,9 @@ let img6 = document.getElementById("img6");
 
 
 btn1.addEventListener("click", function(){
-	if (tg.MainButton.isVisible) {
-		tg.MainButton.hide();
-	}
-	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
-		item = "1";
-		tg.MainButton.show();
-	}
+	tg.MainButton.setText("Вы выбрали товар 1!");
+	item = "1";
+	tg.MainButton.show();
 });
 
 btn2.addEventListener("click", function(){
