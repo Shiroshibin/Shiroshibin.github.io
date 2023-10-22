@@ -1,13 +1,9 @@
 let tg = window.Telegram.WebApp;
 let params = (new URL(document.location)).searchParams;
-let list_of_items = JSON.parse(params.get("data")).data;
-let i
-
-console.log(params.get("data"));
-console.log(JSON.parse(params.get("data")).data[0]);
+let mod = JSON.parse(params.get("data"));
 
 
-
+console.log(typeof mod)
 
 tg.expand();
 
@@ -31,18 +27,6 @@ let img3 = document.getElementById("img3");
 let img4 = document.getElementById("img4");
 let img5 = document.getElementById("img5");
 let img6 = document.getElementById("img6");
-
-console.log(img6);
-
-for(i = 0; i<=list_of_items.lenght; i++){
-	document.getElementById("btn" + toString(i)).style.display = "inline-block";
-	console.log(i);
-}
-
-
-
-
-
 
 
 
