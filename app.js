@@ -32,9 +32,10 @@ let img4 = document.getElementById("img4");
 let img5 = document.getElementById("img5");
 let img6 = document.getElementById("img6");
 
+console.log(img6);
 
-for(i = 0; i<list_of_items.lenght; i++){
-	document.getElementById(`btn` + toString(i)).style.display = "inline-block";
+for(i = 0; i<=list_of_items.lenght; i++){
+	document.getElementById("btn" + toString(i)).style.display = "inline-block";
 	console.log(i);
 }
 
