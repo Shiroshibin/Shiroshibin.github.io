@@ -34,9 +34,10 @@ let img6 = document.getElementById("img6");
 
 
 for(i = 0; i<list_of_items.lenght; i++){
-	document.getElementById(`btn${i}`).style.display = "inline-block"
-	console.log(i)
+	document.getElementById(`btn` + toString(i)).style.display = "inline-block";
+	console.log(i);
 }
+
 
 
 
