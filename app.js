@@ -11,7 +11,7 @@ tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color = '#2cab37';
 
 tg.sendData()
-
+tg.MainButton.setText("Купить");
 
 
 let btn1 = document.getElementById("btn1");
